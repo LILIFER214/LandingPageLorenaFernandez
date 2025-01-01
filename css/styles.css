@@ -8,29 +8,36 @@
     --fontSecundaria: 'Schibsted Grotesk', sans-serif;
  }
 
- * {
+     
+/* generales*/
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
  }
+
  @font-face {
     font-family: 'basking';
     src: url(../font/Basking.ttf)
  }
-    
-/* generales*/
+
 a {
     text-decoration: none;
     color: var(--blanco);
 }
+
 .link a:hover {
     background-color: rgba(211, 211, 211, 0.2);
 }
 
 .contenedor, .contenedordos {
-    max-width: 100%;
+    width: 100%;
+    max-width: 1200%;
     width: 0 auto;
     
+}
+html, body {
+    overflow-x: hidden;
 }
 
 h1, h2, h3 {
